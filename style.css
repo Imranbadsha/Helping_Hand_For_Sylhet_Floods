@@ -31,3 +31,46 @@ height: 100vh;
     font-weight: 800;
     color: white;
 }
+.second{
+    text-align: center;
+}
+.header{
+    font-size: 40px;
+}
+.peragraph{
+    color: #707070;
+    font-size: 20px;
+}
+.amount{
+    display: flex;
+    padding-left: 30%;
+    padding-right: 5%;
+    border-radius: 5px;
+    
+}
+.amount-value{
+    Width: 135px;
+    Height: 123px;
+    Top:979px; 
+    Left:653px; 
+    border-radius:5px;
+}
+#amount-two{
+    color: #FF5959;
+    Width: 136px; 
+    Height: 123px; 
+    Top: 979px;
+    Left: 495px;
+    border: solid 5px #FFEEEE;
+    text-align: center;
+    margin-right: 20px;
+}
+#ammount-input{
+    margin-left: 70vh;
+    width: 80vh;
+    
+}
+#second-button{
+   margin-left: 90vh;
+   margin-top: 5vh;
+}
