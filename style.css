@@ -1,0 +1,33 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+}
+#cover{
+background-image: url(images/donation13.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.top-banner{
+    padding-top: 10vh;
+    text-align: center;
+}
+.top-banner h1{
+    font-size: 50px;
+    color: rgb(233, 232, 240);
+}
+.top-banner p{
+    font-size: 25px;
+    color: rgb(62,202,230);
+}
+.button{
+    text-decoration: none;
+    border: 10px;
+    background-color:#FF5959;
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
