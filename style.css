@@ -1,13 +1,13 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
-        font-family: 'Oswald', sans-serif;
-        font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 #cover{
-background-image: url(images/donation13.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-height: 100vh;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 .top-banner{
     padding-top: 10vh;
@@ -45,8 +45,7 @@ height: 100vh;
     display: flex;
     padding-left: 30%;
     padding-right: 5%;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 .amount-value{
     Width: 135px;
@@ -72,8 +71,8 @@ height: 100vh;
     outline: none;
 }
 #hr{
- width: 800px;
-margin-left: 28%;
+    width: 800px;
+    margin-left: 28%;
 }
 #second-button{
    margin-left: 90vh;
@@ -90,16 +89,14 @@ margin-left: 28%;
 #donate-one{
     Width: 360px;
     Height: 352px;
-    Radius: 5px;
     background-color: rgba(79, 157, 166, 0.1);
-   margin-left:250px ;
-   margin-right: 60px;
-   padding-left: 10px;
+    margin-left:250px ;
+    margin-right: 60px;
+    padding-left: 10px;
 }
 #donate-two {
     Width: 360px;
     Height: 352px;
-    Radius: 5px;
     background-color: rgba(255, 89, 89, 0.1);
     margin-right: 60px;
     padding-left: 10px;
@@ -107,7 +104,47 @@ margin-left: 28%;
 #donate-three {
     Width: 360px;
     Height: 352px;
-    Radius: 5px;
     background-color: #FFF4D6;
     padding-left: 10px;
+}
+#last-part{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.last-section{
+    display: flex;
+    align-items: center;
+}
+form{
+    margin-left: 50%;
+    background-color: #FFF4D6;
+    Width: 950px;
+    Height: 200px;   
+}
+#email{
+    width: 300px;
+    height: 60px;
+    background-color: #707070;
+    border: none;
+    outline: none;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    
+}
+#subs{
+ margin-top: 10vh;
+}
+::placeholder{
+    color: #8f8686;
+}
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+    height: 200px ;
+    margin-top: 50px;
+}
+footer h1{
+    color: #FF5959;
 }
