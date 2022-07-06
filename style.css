@@ -67,7 +67,13 @@ height: 100vh;
 }
 #ammount-input{
     margin-left: 70vh;
-    width: 80vh;  
+    width: 80vh; 
+    border: none;
+    outline: none;
+}
+#hr{
+ width: 800px;
+margin-left: 28%;
 }
 #second-button{
    margin-left: 90vh;
